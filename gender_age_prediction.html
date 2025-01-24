@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gender and Age Prediction | Vishnu Datta Sai</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Black background */
+            color: #fff; /* White text for high contrast */
+            padding: 20px;
+            background-image: url('gender%20and%20age.webp'); /* Background image */
+            background-size: cover; /* Ensures the image covers the entire page */
+            background-position: center; /* Centers the background image */
+            background-attachment: fixed; /* Keeps the background fixed while scrolling */
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            color: #fff; /* White text for the title */
+        }
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: #fff; /* White text for the subtitle */
+        }
+        .project-details {
+            background-color: rgba(34, 34, 34, 0.8); /* Dark grey with transparency for better readability */
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            color: #fff; /* White text for readability */
+            margin-top: 2rem;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+        }
+        .project-details h4 {
+            font-size: 1.6rem;
+            margin-bottom: 1rem;
+        }
+        .project-details p {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        ul li {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        a {
+            color: #4CAF50; /* Green color for links */
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gender and Age Prediction</h1>
+    <h2>Project Overview</h2>
+
+    <div class="project-details">
+        <h4>About the Project</h4>
+        <p>The Gender and Age Prediction project uses deep learning techniques, specifically a Convolutional Neural Network (CNN), to predict the age, gender, and race of a person based on their image. The system is built using Python and TensorFlow/Keras, with an efficient back-end that processes image data and provides real-time predictions through a web interface.</p>
+
+        <h4>Key Features</h4>
+        <ul>
+            <li><strong>CNN Model:</strong> A custom Convolutional Neural Network (CNN) model was designed and trained using TensorFlow/Keras. The model learns to identify patterns from images that are used to predict age, gender (male/female), and race. The CNN architecture allows for high accuracy in recognizing facial features and classifying them.</li>
+            <li><strong>Image Processing with OpenCV:</strong> Pre-processing steps, such as resizing, normalization, and noise reduction, were applied to the input images using OpenCV. This helped in improving the model’s accuracy and efficiency by providing cleaner input data for training and predictions.</li>
+            <li><strong>Front-End Interface:</strong> The front-end interface was developed using HTML, CSS, and JavaScript, allowing users to upload images directly from their device. The interface provides a user-friendly experience, displaying predictions and relevant details in real-time.</li>
+            <li><strong>Real-Time Predictions:</strong> Once an image is uploaded, the system processes it using the trained CNN model, and the backend sends the prediction to the front-end. Users can instantly see the predicted age, gender, and race.</li>
+        </ul>
+
+        <h4>Achievements</h4>
+        <ul>
+            <li><strong>Accuracy:</strong> The trained CNN model achieved an overall accuracy of 87% in predicting a person’s age, gender, and race. This demonstrates the effectiveness of the model in understanding complex patterns in images.</li>
+            <li><strong>Real-Time Processing:</strong> Integrated real-time predictions into the web interface, making it interactive and responsive. Users can upload images and receive immediate feedback on their predictions.</li>
+            <li><strong>User-Friendly Interface:</strong> Designed the user interface to be intuitive and easy to use, ensuring that users with minimal technical knowledge can easily navigate the system.</li>
+        </ul>
+
+        <h4>Technical Skills Used</h4>
+        <ul>
+            <li><strong>Python:</strong> Python was used to implement the CNN model and train it using TensorFlow/Keras. Python’s simplicity and extensive libraries made it an ideal choice for this machine learning task.</li>
+            <li><strong>TensorFlow/Keras:</strong> These powerful frameworks were used to build and train the CNN model. Keras, being a high-level API, simplified the process of designing, training, and evaluating the model.</li>
+            <li><strong>OpenCV:</strong> OpenCV was used for image processing tasks such as resizing, normalizing, and enhancing the input data before feeding it into the model.</li>
+            <li><strong>HTML, CSS, and JavaScript:</strong> These web technologies were used to develop the front-end interface, allowing users to interact with the model by uploading images and viewing the predictions in real-time.</li>
+        </ul>
+    </div>
+
+    <p><a href="index.html">Back to Home</a></p>
+</body>
+</html>
